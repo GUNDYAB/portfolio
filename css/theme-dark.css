@@ -4,6 +4,16 @@
     --text: #ffffff;
     --text-secondary: #a0a0a0;
     --shadow: rgba(0, 0, 0, 0.3);
+    --icon-content: "\f185"; /* Sun icon */
+}
+
+.about-cta::before {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.about-cta .btn.primary {
+    background-color: #fff;
+    color: var(--text);
 }
 
 .gradient-overlay {
@@ -11,12 +21,12 @@
 }
 
 .theme-toggle {
-    background-color: #3a3b3c;
+    background-color: #3a3b3c;  /* Dark gray background */
     color: #fff;
 }
 
 .theme-toggle i::before {
-    content: "\f185";
+    content: "\f185"; /* Sun icon for dark mode */
 }
 
 .section-break-overlay {
