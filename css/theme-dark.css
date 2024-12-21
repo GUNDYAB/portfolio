@@ -1,0 +1,24 @@
+:root {
+    --background: #1a1a1a;
+    --surface: #2d2d2d;
+    --text: #ffffff;
+    --text-secondary: #a0a0a0;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+.gradient-overlay {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.theme-toggle {
+    background-color: #3a3b3c;
+    color: #fff;
+}
+
+.theme-toggle i::before {
+    content: "\f185";
+}
+
+.section-break-overlay {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
